@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>ORRERION by humanofculture</title>
+    <title>Unity Web Player | ORRERION WEB</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -11,15 +11,16 @@
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
+        <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">ORRERION WEB</div>
-        <div id="unity-build-title"><h3>IF THE APP IS NOT LOADING PRESS <a href="https://humanofculture.itch.io/orrerion">HERE</a></h3></div>
       </div>
     </div>
     <script>
@@ -51,15 +52,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Builds.loader.js";
+      var loaderUrl = buildUrl + "/bbild.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Builds.data.br",
-        frameworkUrl: buildUrl + "/Builds.framework.js.br",
-        codeUrl: buildUrl + "/Builds.wasm.br",
+        dataUrl: buildUrl + "/bbild.data.br",
+        frameworkUrl: buildUrl + "/bbild.framework.js.br",
+        codeUrl: buildUrl + "/bbild.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "ORRERION WEB VERSION",
+        companyName: "Elguja Zaalishvili",
+        productName: "ORRERION WEB",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
